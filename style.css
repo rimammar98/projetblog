@@ -1,0 +1,89 @@
+
+
+
+
+h2{
+    text-transform: uppercase;
+}
+.contact{
+    color: blue;
+    
+}
+
+
+
+
+i{
+    color: blue;
+    
+}
+
+
+
+.jesuis{
+    color: blue;
+    font-style:justify;
+    
+    
+}
+
+p{
+    text-align: justify;
+    
+}
+.titre1{
+    color: blue;
+    
+}
+
+.titre2{
+    color: blue;
+    
+}
+.titre3{
+    color: blue  
+    
+}
+
+.titre4{
+    color: blue;
+    
+}
+.titre5{
+    color: blue;
+    
+}
+
+footer,p{
+
+    text-align: center;
+}
+
+@media (max-width:320px) {
+    .contact{
+        color: rgb(11, 121, 172);
+        
+}
+@media (max-width:320px) {
+    .jesuis{
+        color: rgb(11, 121, 172);
+        font-style:justify;
+        
+
+            
+        }
+    }
+    
+@media (max-width:320px){
+    p{
+        text-align: justify;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    h2 {
+    font-size: 3em;
+    text-align: justify;
+    }
+    }
