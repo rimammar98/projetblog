@@ -1,123 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
-h1{
-    color:blue;
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+body{
+    margin: 10px 80px;
 }
+  #comment-section {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  #comment-form textarea {
+    padding-left:5px;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border-radius:7px; 
+    font-family:'Poppins', sans-serif; 
+  }
+  
+  .comment {
+    margin-bottom: 20px;
+  }
+  
+  .reaction-section {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .like-count {
+    margin-left: 10px;
+  }
+  
 
-h2{
-    text-transform: uppercase;
-}
-.contact{
-    color: blue;
+
+  .like-btn{
+     margin-left: auto;
+        height: 35px; /* sets the height of the button */
+        width: 60px; /* sets the width of the button */
+        border-radius: 10px; /* rounds the corners of the button */
+        background-color: rgb(238, 221, 190);
+     border-color:rgb(165, 142, 99);
+    color: rgb(143, 122, 94);
+    padding: 10px 10px;
+    text-align: center;
+        font-size: 15px; /* sets the font size of the button text */
+        border: 0.5px;
     
-}
-
-
-
-
-i{
-    color: blue;
+        border-block-end-style:solid;
+        display: flex;
     
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-content: stretch;
+    align-items: stretch;
+      }
+      
+
+
+ 
+.comment-time{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;   
 }
 
+#comments-list{
+    list-style-type: none;  
+}
+    
+button {
+    border-radius: 10px; /* rounds the corners of the button */
+    background-color: rgb(238, 221, 190);
+ border-color:rgb(165, 142, 99);
+ color: rgb(109, 86, 56);
+    padding: 10px 20px; 
+    text-align: center;
+    cursor: pointer;
+    border: 0.25px;
+    height: 30px;
+    width: 150px;
+    border-block-end-style:solid;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-content: stretch;
+    align-items: stretch;
+  }
+  button:hover {
+    background-color:blanchedalmond;
+  }
+  
+  button:active {
+    background-color:blanchedalmond;
+  }
+  
 
 .jesuis{
-    color: blue;
-    font-style:justify;
+    color:rgb(143, 122, 94);
+    text-align:justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;   
+    margin-left: 4%;
+    text-align: center;
     
-  
     
 }
 
-p{
-    text-align: justify;
+.articles{
+ margin-top: 55px;
+}
+.articles .article1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 55px;
+
+}
+
+p.date{
+    color: rgb(143, 122, 94);
+}
+.gauche{
+    width: 50%;
+}
+.droite{
+display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: stretch;
+}
+.btn {
+   
+text-decoration: none;
+    padding: 10px;
+    margin-left: auto;
+    background-color: rgb(238, 221, 190);
+    margin-left: auto;
+    color:rgb(109, 86, 56);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+   
+ 
+  .btn:active{
+    background-color:blanchedalmond;
+  }
+  .btn:hover{
+    background-color:blanchedalmond;
+  }
+  h3 {
+    color:rgb(143, 122, 94);
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  ul{
+    font-family: 'Poppins', sans-serif;
+    list-style-type:circle;
+  }
+h1 {
+    padding-left: 4%;
+    color:rgb(143, 122, 94);
+    font-family: 'Open Sans', sans-serif;
+}
+.apprendrelangue{
+    color:rgb(143, 122, 94);
+    font-style:justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    margin-left: 4%;   
+}
+
+
+
+
+  .photoquisuisje{
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+   .presentation{
+    padding-right: 4%;
+   }
+
+.Mamanchef{
+    color:rgb(143, 122, 94);
+    font-style:justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px; 
+    text-align: center;
+    
+
+}
+#recette{
+    margin-left: 25%;
+}
+#photogateauchocolat{
+    text-align: center;
+
+}
+.delicieuxgateau{
+    color:rgb(143, 122, 94);
+    font-style:justify;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    margin-left: 4%; 
+}
+
+.photomamanchef{
     text-align: center;
     
 }
-.titre1{
-    color: blue;
+
+.Mamanlouve{
+    color:rgb(143, 122, 94);
+    font-style:justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px; 
+    margin-left: 4%;
+}
+p{
+    text-align:justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px; 
+    margin-left: 4%;
     
 }
-
-.titre2{
-    color: blue;
-    
-}
-.titre3{
-    color: blue  
-    
-}
-
-.titre4{
-    color: blue;
-    
-}
-.titre5{
-    color: blue;
-    
-}
- .photo{
-    padding-top: 2%;
-
- }
-
- nav > a {
-    color: white;
-
- }
- nav {
-   
+#titre1{
+    color:rgb(143, 122, 94);
+    background-color:rgb(238, 221, 190);
+    font-family: 'Open Sans', sans-serif;
     display: flex;
-    height: 30px;
-    background: blue;
+    height: 50px;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    align-content: stretch;
+    align-items: stretch;
+    padding-left: 4%;
+}
+
+.photomamanchef {
+    position: relative;
+    
+  }
+  
+  #sous-titre3 {
+    
+    position: absolute;
+    bottom: 0%; 
+    background-color:rgb(238, 221, 190);
+    color: rgb(122, 110, 80);
+    font-size: 15px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+   
+    
+  }
+  
+
+#sous-titre2{
+    font-family:'Poppins', sans-serif; ; 
+    font-style:oblique;
+}
+#sous-titre1{
+    font-family:'Poppins', sans-serif; ; 
+    font-style:oblique;
+}
+label{ 
+    display: block; 
+    width: 150px; 
+    height:21px; 
+    float: left; 
+    padding-left:5px; 
+    font-family:'Poppins', sans-serif; ; 
+    font-size:105%;  
+   } 
+   
+   #username-input{ 
+    padding-left:5px;
+    border-block-end-width: 1px;
+    height:16px; 
+    border-radius:7px; 
+    font-family:'Poppins', sans-serif; 
+
+   } 
+ .logo{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    text-align: center;
+
+
+ }
+
+ .nav a {
+    color:rgb(143, 122, 94);
+    text-indent: 10px;
+    margin: auto;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+
+ }
+ 
+  
+ a:active {
+    background-color:lightgoldenrodyellow;
+    color:darkgoldenrod;
+  }
+  
+  
+ nav {
+   box-shadow: 20px;
+    display: flex;
+    height: 50px;
+  background-color:rgb(238, 221, 190);
     flex-direction: row;
     justify-content: space-around;
     align-content: flex-end;
 }
 
 header {
-    background-color: blue;
+    background-color: white;
     display:inline-flexbox;
 
 }
 footer{
   
-    background: blue;
-    color: white;
+    background:rgb(238, 221, 190);
+
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+   
+
     
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-header,body,footer {
-	font-family: 'Roboto', sans-serif;
+.pieddepage{
+    display: flex;
 }
 
-@media (max-width:320px) {
-    .contact{
-        color: rgb(11, 121, 172);
-        
+footer h3 {
+    font-family:'Poppins', sans-serif; 
+    font-size: 15px;
+    color: rgb(143, 122, 94)
+	
 }
-}
-@media (max-width:320px) {
-    .jesuis{
-        color: rgb(11, 121, 172);
-        font-style:justify;
-        
 
-            
-        }
-    }
+footer .social-media{
+    display: flex;
+    margin-right: 30px;
+    color: rgb(143, 122, 94);
+ 
+}
+footer .social-media p {
+    font-size: 40px;
     
-@media (max-width:320px){
-    p{
-        text-align: justify;
-    }
+
 }
-
-
-@media only screen and (max-width: 320px) {
-    h2 {
-    font-size: 3em;
-    text-align: justify;
+@media screen and (max-width: 640px) {
+    body{
+        margin: 10px 20px;
+    }   
+    
+ .nav a {     
+font-size: 15px;
+  
     }
+   
  }

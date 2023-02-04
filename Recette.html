@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recette</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a788aaa49b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="photologo" width="60%" height="20%"> 
+        </div>
+            
+</header>
+<nav class="nav a">
+                
+    <a href="Qui suis-je.html">Qui suis-je ?</a>
+    <a href="Mamangeek.html">Maman geek</a>
+    <a href="Mamanlouve.html">Maman louve</a>
+    <a href="Mamanchef.html">Maman chef</a>
+    
+  
+</nav>
+
+<h2 class="delicieuxgateau">  Délicieux gâteau au chocolat et fraises </h2>
+
+<div id="photogateauchocolat">
+    <img src="gateau-chocolate.jpg" alt="photogateauchocolat" width="80%" height="80%">
+</div>
+<div id="recette">
+<h3 id="ingredients">Ingrédients:</h3>
+    <ul>
+        <li>3 oeufs</li>
+        <li>100 g de beurre</li>
+        <li>100 g de chocolat noir</li>
+        <li>150 g de sucre</li>
+        <li>100 ml de lait</li>
+        <li>100 g de farine</li>
+        <li>80 g de maïzena</li>
+        <li>25 gr de cacao</li>
+        <li>1 sachet de levure chimique</li>
+        <li>200 g de fraises</li>
+        </ul>
+        <h3 id="ganache">Ganache:</h3>
+        <ul>
+            <li>200 g de chocolat noir</li>
+            <li>150 ml de crème liquide</li>
+            </ul>
+
+            <h3 id="preparation">Préparation:</h3>
+            <p>-Pr&eacute;chauffez le four &agrave; 170&deg;.<br>
+                -Mettez dans le bol le chocolat puis hachez 10 secondes &agrave; la vitesse 10.<br>
+                -Ajoutez le beurre puis r&eacute;glez 3 minutes &agrave; 50&deg; &agrave; la vitesse 2.<br>
+                -A la sonnerie ajoutez le lait puis r&eacute;glez 10 secondes &agrave; la vitesse 3.<br>
+                -Versez dans un saladier et r&eacute;servez.<br>
+                -Mettez dans le bol les oeufs et le sucre puis r&eacute;glez 2 minutes &agrave; la vitesse 3.<br>
+                -Ajoutez le lait et chocolat fondu puis r&eacute;glez 10 secondes &agrave; la vitesse 3.<br>
+                -Ensuite ajoutez la farine, la ma&iuml;zena, le cacao et la levure puis r&eacute;glez 30 secondes &agrave; la vitesse 5.<br>
+                -Coupez les fraises en morceaux puis incorporez-les dans le bol et r&eacute;glez 10 secondes &agrave; la vitesse 2 / sens inverse.<br>
+                -Versez la pr&eacute;paration dans un moule recouvert de papier sulfuris&eacute; puis enfournez 40 minutes.</p>
+                <p>Une fois le g&acirc;teau est cuit, d&eacute;moulez et laissez refroidir.<br>
+                -Pendant ce temps pr&eacute;parez la ganache mettez dans le bol le chocolat puis hachez 10 secondes &agrave; la vitesse 10.<br>
+                -Ajoutez la cr&egrave;me puis r&eacute;glez 4 minutes &agrave; 50&deg; &agrave; la vitesse 2.<br>
+                -Nappez le g&acirc;teau avec la ganache puis d&eacute;corez avec des fraises et placez au frais jusqu&rsquo;au moment de servir.</p>
+            </div>
+                <div id="titre1"> <h2> Laisser un commentaire <i class="fa-solid fa-comments fa-lg"></i></h2></div>
+        <div id="comment-section">
+               
+                  <ul id="comments-list">
+                  <!-- comments will be added dynamically here -->
+                </ul>
+                
+                <form id="comment-form">
+                    <label for="pseudo">Pseudo:*</label><br></br>
+                  <input type="text" id="username-input" placeholder="Votre pseudo"required><br></br>
+                  <label for="comment">Commentaire:</label><br></br>
+                  <textarea id="comment-input" placeholder="Entrer votre commentaire"></textarea><br></br>
+                  <button type="submit">Envoyer</button>
+                </form>
+              </div>
+              
+              <template id="comment-template">
+                <li class="comment">
+                  <p class="comment-header">
+                    <span class="username"></span>
+                    <span class="comment-time">à l'instant</span>
+                  </p>
+                  
+                  <p class="comment-text"></p>
+                  <div class="reaction-section">
+                    <button class="like-btn">J'aime</button>
+                    <span class="like-count">0</span>
+                  </div>
+                </li>
+              </template>
+              
+            
+  
+            </body>
+          
+            
+                <footer>
+                    <h3 class="pieddepage">© 2023 rim ammar</h3>
+                <div class="social-media"></div>
+    <p><i class="fa-brands fa-facebook"></i></p>
+    <p><i class="fa-brands fa-instagram"></i></p>
+    <p><i class="fa-brands fa-twitter"></i></p>
+            
+            <script src="main.js"></script>
+        </footer>
+</html>

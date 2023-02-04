@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a788aaa49b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Mamanlouve</title>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="photologo" width="60%" height="20%"> 
+        </div>
+        
+        <nav class="nav a">
+                
+            <a href="Qui suis-je.html">Qui suis-je ?</a>
+            <a href="Mamangeek.html">Maman geek</a>
+            <a href="Mamanlouve.html">Maman louve</a>
+            <a href="Mamanchef.html">Maman chef</a>  
+        </nav>
+</header>
+
+<h2 class="Mamanlouve"> J'ai du mal à retenir mon côté mère-louve, c'est plus fort que moi</h2>
+<div class="photomamanlouve">
+    <img src="mamanlouve.jpeg" alt="photomamanlouve" width="100%" height="50%"> 
+</div>
+<p>Maman poule, maman cool, maman rebelle, maman éducation positive ou maman qui crie, maman allaitante ou biberonnant, maman petits pots, maman mojitos, peu importe le type de mère que l'on soit, je crois qu'on a toutes en nous ce côté mère LOUVE quand on touche à notre progéniture.
+    Est-ce dû à un quelconque instinct maternel, au côté animal qui sommeille en nous ? Quoiqu'il en soit, nous possédons indéniablement une puissance viscérale capable de nous rendre ivre de colère à l'idée qu'on puisse toucher à notre enfant.
+   </p>
+    <ul>
+    <li id="sous-titre1">Les broutilles...</li>
+    
+    <p>Les petites disputes quotidiennes parce que sa copine n'a pas voulu jouer avec elle ou qu'une autre lui a dit quelque chose de méchant ou l'a poussée font malheureusement partie de la vie, et c'est comme ça. Je l'écoute, lui fait mettre des mots sur ce qui la dérange et surtout relativiser même si à 5 ans, ça parait compliqué. Mais dans l'ensemble, ça se règle assez vite et on passe à autre chose.</p>
+    <li id="sous-titre2"> Quand ça va un peu plus loin... (et que la Louve se réveille)</li>
+    <p>De temps en temps, à la sortie d'école, je retrouve une Poupette à la mine défaite, visiblement triste. Dans ces cas-là, je me doute bien que quelque chose a du mal à passer... Alors, on parle, je questionne et je ronge mon frein parfois face aux réponses que j'obtiens... C'est difficile d'expliquer et de faire comprendre à un enfant</p>
+    </ul>
+    
+        <div id="titre1"> <h2> Laisser un commentaire <i class="fa-solid fa-comments fa-lg"></i></h2></div>
+        <div id="comment-section">
+               
+                  <ul id="comments-list">
+                  <!-- comments will be added dynamically here -->
+                </ul>
+                
+                <form id="comment-form">
+                    <label for="pseudo">Pseudo:*</label><br></br>
+                  <input type="text" id="username-input" placeholder="Votre pseudo"required><br></br>
+                  <label for="comment">Commentaire:</label><br></br>
+                  <textarea id="comment-input" placeholder="Entrer votre commentaire"></textarea><br></br>
+                  <button type="submit">Envoyer</button>
+                </form>
+              </div>
+              
+              <template id="comment-template">
+                <li class="comment">
+                  <p class="comment-header">
+                    <span class="username"></span>
+                    <span class="comment-time">à l'instant</span>
+                  </p>
+                  
+                  <p class="comment-text"></p>
+                  <div class="reaction-section">
+                    <button class="like-btn">J'aime</button>
+                    <span class="like-count">0</span>
+                  </div>
+                </li>
+              </template>
+              
+          
+</body>
+<footer>
+    <script src="main.js"></script>
+    
+        <h3 class="pieddepage">© 2023 rim ammar</h3>
+                <div class="social-media"></div>
+    <p><i class="fa-brands fa-facebook"></i></p>
+    <p><i class="fa-brands fa-instagram"></i></p>
+    <p><i class="fa-brands fa-twitter"></i></p>
+</footer>
+</html>

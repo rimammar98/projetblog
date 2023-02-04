@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamangeek</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a788aaa49b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="photologo" width="60%" height="20%"> 
+        </div>
+            
+</header>
+<nav class="nav a">
+                
+    <a href="Qui suis-je.html">Qui suis-je ?</a>
+    <a href="Mamangeek.html">Maman geek</a>
+    <a href="Mamanlouve.html">Maman louve</a>
+    <a href="Mamanchef.html">Maman chef</a>
+    
+  
+</nav>
+
+<h2 class="apprendrelangue"> Apprendre les langues à la maison </h2>
+
+<div class="photoapprendrealamaison">
+    <img src="Apprendralamaison.jpg" alt="photoapprendrealamaison" width="100%" height="50%">
+
+<p> En ces premiers mois de rentrée scolaire, il n’est pas toujours aisé pour votre enfant de se remettre dans le rythme. Les nouvelles contraintes contrastent souvent beaucoup avec les deux mois de vacances d’été passés au soleil. Entre les nouveaux camarades, les devoirs et les nouvelles activités du soir et du week-end, trouver assez de temps pour travailler le soir à la maison est devenu un vrai challenge.
+    Voici donc pour vous aider quelques trucs et astuces faciles à mettre en place pour permettre à votre enfant de continuer d’apprendre les langues à la maison tout en s’amusant.</p>
+    <ul>
+        <li id="sous-titre1">Privilégier les films et les séries en VO (Version Originale)</li>
+        
+            <p>La nouvelle série tant attendue par votre fils ou votre fille est enfin disponible. Il ou elle n’a qu’une seule envie, la regarder ce soir et en parler le lendemain avec ses copains et ses copines. Profitez de cette occasion pour diffuser sur votre téléviseur cette série en VO. Il est nettement conseillé de choisir les sous-titres dans la langue de la version originale. Même si cela demande un effort supplémentaire, l’apprentissage est beaucoup plus efficace.Sur Netflix vous trouverez de nombreuses séries qu’il est préférable et bénéfique de regarder en version originale comme La Casa de Papel à regarder en espagnol ou encore The Politicians, facile à comprendre en anglais.</p> 
+   <li id="sous-titre2">Entraînez-vous en famille</li>
+   <p>Si vous maîtrisez vous-même suffisamment l’anglais par exemple, alors il est tout à fait possible d’organiser un dîner par semaine seulement dans cette langue. Aidez-vous si besoin d’un dictionnaire, travaillez avant un peu votre grammaire et lancez-vous. Même si vous trouvez que votre accent n’est pas exceptionnel, montrer à votre enfant que vous osez parler sans hésitation lui donnera confiance en lui-même.A la maison, nous varions entre Anglais et Espagnol, puisque je suis moi-même d’origine espagnole et qu’ils ont l’habitude d’entendre leur grand mère leur parler dans cette langue. Ils ne la pratiquent pas assez, nous essayons d’y remédier !</p>
+        </ul>
+
+        
+        
+        <div id="titre1"> <h2> Laisser un commentaire <i class="fa-solid fa-comments fa-lg"></i></h2></div>
+        <div id="comment-section">
+               
+                  <ul id="comments-list">
+                  <!-- comments will be added dynamically here -->
+                </ul>
+                
+                <form id="comment-form">
+                    <label for="pseudo">Pseudo:*</label><br></br>
+                  <input type="text" id="username-input" placeholder="Votre pseudo" required><br></br>
+                  <label for="comment">Commentaire:</label><br></br>
+                  <textarea id="comment-input" placeholder="Entrer votre commentaire"></textarea><br></br>
+                  <button type="submit">Envoyer</button>
+                </form>
+              </div>
+              
+              <template id="comment-template">
+                <li class="comment">
+                  <p class="comment-header">
+                    <span class="username"></span>
+                    <span class="comment-time">à l'instant</span>
+                  </p>
+                  
+                  <p class="comment-text"></p>
+                  <div class="reaction-section">
+                    <button class="like-btn">J'aime</button>
+                    <span class="like-count">0</span>
+                  </div>
+                </li>
+              </template>
+              
+            
+  
+            </body>
+            <footer>
+                
+                    <h3 class="pieddepage">© 2023 rim ammar</h3>
+                    <div class="social-media"></div>
+        <p><i class="fa-brands fa-facebook"></i></p>
+        <p><i class="fa-brands fa-instagram"></i></p>
+        <p><i class="fa-brands fa-twitter"></i></p>
+            
+            <script src="main.js"></script>
+        </footer>
+</html>

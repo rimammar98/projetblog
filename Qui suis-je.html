@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mamangeek</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a788aaa49b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="photo logo" width="60%" height="20%"> 
+        </div>
+            
+</header>
+<nav class="nav a">
+                
+    <a href="Qui suis-je.html">Qui suis-je ?</a>
+    <a href="Mamangeek.html">Maman geek</a>
+    <a href="Mamanlouve.html">Maman louve</a>
+    <a href="Mamanchef.html">Maman chef</a>
+    
+  
+</nav>
+
+<h2 class="jesuis"> Qui suis-je ?</h2>
+
+<div class="photoquisuisje">
+    <img src="quisuisje.jpg" alt="photoquisuisje" width="100%" height="100%">
+</div>
+<div class="presentation">
+<p> 
+    Je m’appelle RIM, j’ai 30 ans et je suis la maman d’un adorable petit garçon depuis l’été 2014 et une fée est venue agrandir notre famille en février 2017. J’ai commencé ma vie active en tant que journaliste , j’ai ensuite découvert la maternité !
+    
+    L’apprentissage de ce rôle de maman a bouleversé ma vie mais également mon boulot ! Plus envie de cette vie à cent à l’heure, sans cesse en déplacement… Depuis la naissance de little G., j’ai donc ouvert ce blog et j’ai dérivé en presse écrite, dans le milieu parental. Aujourd’hui je pense avoir trouvé mon équilibre et je suis ravie de vous faire partager un bout de nous à travers ces quelques lignes de mon blog !
+    
+     Quel est le petit jeu qui fonctionne à coup sûr pour occuper les enfants ? (dans la salle d’attente,le train…)
+    Sans aucun matériel (je suis du genre à tout oublier)… je dirai papier cailloux ciseaux… ça fait rire les oiseaux, chanter les abeilles… et surtout ça fait marrer mes enfants. (et moi aussi, mais seulement quand je gagne) nous dit Cynthia !
+    
+    Plusieurs petits jeux sont nécessaires pour occuper le fils de Sheilys, hyperactif et impatient (comme sa maman). Donc elle enchaîne le cache-cache en masquant mes yeux, avec des chants qui nécessitent des jeux de mains (« Ainsi font les petites marionnettes », « Tape, tape, petite main »), puis quelques pas, puis un peu de lecture…
+    Vous pouvez également me suivre sur Facebook, Instagram et Twitter
+</p>
+</div>
+
+        
+        <div id="titre1"> <h2> Laisser un commentaire <i class="fa-solid fa-comments fa-lg"></i></h2></div>
+        <div id="comment-section">
+               
+                  <ul id="comments-list">
+                  <!-- comments will be added dynamically here -->
+                </ul>
+                
+                <form id="comment-form">
+                    <label for="pseudo">Pseudo:*</label><br></br>
+                  <input type="text" id="username-input" placeholder="Votre pseudo" required><br></br>
+                  <label for="comment">Commentaire:</label><br></br>
+                  <textarea id="comment-input" placeholder="Entrer votre commentaire"></textarea><br></br>
+                  <button type="submit">Envoyer</button>
+                </form>
+              </div>
+              
+              <template id="comment-template">
+                <li class="comment">
+                  <p class="comment-header">
+                    <span class="username"></span>
+                    <span class="comment-time">à l'instant</span>
+                  </p>
+                  
+                  <p class="comment-text"></p>
+                  <div class="reaction-section">
+                    <button class="like-btn">J'aime</button>
+                    <span class="like-count">0</span>
+                  </div>
+                </li>
+              </template>
+              
+            
+  
+            </body>
+            <footer>
+                <h3 class="pieddepage">© 2023 rim ammar</h3>
+                <div class="social-media"></div>
+    <p><i class="fa-brands fa-facebook"></i></p>
+    <p><i class="fa-brands fa-instagram"></i></p>
+    <p><i class="fa-brands fa-twitter"></i></p>
+            
+            <script src="main.js"></script>
+        </footer>
+</html>
